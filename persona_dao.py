@@ -61,14 +61,14 @@ if __name__ == '__main__':
     #  log.debug(f'Personas insertadas: {personas_insertadas}')
 
     # Actualizar una persona
-        # persona1 = Persona(id_persona=1, nombre='Juan Carlos', apellido='Juarez', email='jcjuarez@mail.com')
-        # personas_actualizadas = PersonaDAO.actualizar(persona1)
-        # log.debug(f'Personas actualizadas: {personas_actualizadas}')
+        persona1 = Persona(id_persona=1, nombre='Jhonatan', apellido='Ramirez', email='JR@mail.com')
+        personas_actualizadas = PersonaDAO.actualizar(persona1)
+        log.debug(f'Personas actualizadas: {personas_actualizadas}')
 
     # Eliminar una persona
-        persona1 = Persona(id_persona=18)
-        personas_eliminadas = PersonaDAO.eliminar(persona1)
-        log.debug(f'Personas eliminadas: {personas_eliminadas}')
+        # persona1 = Persona(id_persona=18)
+        # personas_eliminadas = PersonaDAO.eliminar(persona1)
+        # log.debug(f'Personas eliminadas: {personas_eliminadas}')
     
     
     # Pruebas
